@@ -80,7 +80,7 @@
       }
 
       &.left {
-        margin-left: -120%;
+        margin-left: calc(-120% - 80px);
         border-right: 5px solid $blockBorderColor;
         z-index: 2;
 
@@ -154,7 +154,7 @@ export default Vue.extend({
     const display2: HTMLElement = (this as any).$refs.display2
     let displayTop1 = Math.floor(Math.random() * 50),
       displayTop2 = Math.floor(Math.random() * 80 + 200)
-    left.animate([{ marginLeft: '-120%' }, { marginLeft: '0' }], {
+    left.animate([{ marginLeft: 'calc(-120% - 80px)' }, { marginLeft: '0' }], {
       duration: 300,
       easing: 'ease-in',
       fill: 'forwards',
