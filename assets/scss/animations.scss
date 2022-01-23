@@ -1,0 +1,35 @@
+@keyframes onStart {
+  from {
+    background-color: white;
+  }
+}
+
+@keyframes onShowLine {
+  from {
+    opacity: 0;
+    margin-left: 200px;
+  }
+}
+
+@keyframes logoShadow {
+  0% {
+    text-shadow: 0 0 5px rgb(33, 243, 33), 0 0 60px rgb(33, 243, 33),
+      0 0 70px rgb(33, 243, 33);
+  }
+  25% {
+    text-shadow: 0 0 7px rgb(33, 243, 33), 0 0 60px rgb(33, 243, 33),
+      0 0 70px rgb(33, 243, 33);
+  }
+  50% {
+    text-shadow: 0 0 5px rgb(33, 243, 33), 0 0 60px rgb(33, 243, 33),
+      0 0 70px rgb(33, 243, 33);
+  }
+  75% {
+    text-shadow: 0 0 3px rgb(33, 243, 33), 0 0 60px rgb(33, 243, 33),
+      0 0 70px rgb(33, 243, 33);
+  }
+  100% {
+    text-shadow: 0 0 5px rgb(33, 243, 33), 0 0 60px rgb(33, 243, 33),
+      0 0 70px rgb(33, 243, 33);
+  }
+}
